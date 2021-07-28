@@ -74,7 +74,7 @@ def main():
     a,b = recta_regressio(trainData)
     print('A: ',a,'B: ',b)
     acc = accuracy(testData,a,b)
-    print('Squared distance error of: ',str(acc))
+    print('Squared distance error of: ' + str(acc))
     if (acc>200):
         print('It is a bad model')
     elif(acc>100):
