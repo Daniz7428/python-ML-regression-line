@@ -79,3 +79,12 @@ def main():
         print('It is a bad model')
     elif(acc>100):
         print('It is a decent model')
+    else:
+        print('is a good model')
+    for i,x in enumerate(predictData[0]):
+        print('Predicted height: ' + str(i+1) + ' is ' + str(a+x+b) + 'cm')
+    plotline(trainData,a,b)
+
+
+if __name__ = '__main__':
+    main()
